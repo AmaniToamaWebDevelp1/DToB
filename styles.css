@@ -1,0 +1,58 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap'); 
+body{
+    background: rgb(174,238,184);
+    background: radial-gradient(circle, rgba(174,238,184,1) 0%, rgba(13,172,135,1) 100%);
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+   
+  
+}
+  .btn{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    width: 160px;
+    background-color: aquamarine;
+    border: 3px dashed rgb(26, 26, 22) ;
+  }
+  .btn:hover{
+    cursor: pointer;
+  }
+  .btn:focus{
+    box-shadow:  inset 30px 20px 3px rgb(27, 109, 84);
+    color: aliceblue;
+ 
+  }
+h1{
+    font-family: 'Rubik Bubbles', cursive;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: black 2px 2px 5px ;
+}
+.mydes{
+
+    font-family: 'Poppins', sans-serif;
+    text-shadow: rgba(154, 137, 137, 0.434) 2px 2px 5px ;
+    width: 160px;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(108, 103, 103);
+
+
+}
+.loca{
+    width: 400px;
+    height: 390px;
+    display: grid;
+
+}
+input:focus{
+    outline: 3px dashed rgb(26, 26, 22);
+}
