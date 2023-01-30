@@ -56,3 +56,5 @@ h1{
 input:focus{
     outline: 3px dashed rgb(26, 26, 22);
 }
+input{
+ width : 160px;}
